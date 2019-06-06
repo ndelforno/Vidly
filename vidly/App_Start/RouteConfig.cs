@@ -13,7 +13,6 @@ namespace vidly
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
-            //custom route
             routes.MapRoute(
                 "MoviesByReleaseDate",
                 "movies/released/{year}/{month}",
